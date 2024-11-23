@@ -1,3 +1,2 @@
-requests
 plotly_express
 dash == 2.18.2
