@@ -22,6 +22,6 @@ def map_page():
     fig.update_layout(mapbox_style="open-street-map")
 
     return html.Div([
-        html.H1("Page de la Carte", style={"text-align": "center"}),
+        html.H1("Localisation spaciale ", style={"text-align": "center"}),
         dcc.Graph(figure=fig)
     ])
